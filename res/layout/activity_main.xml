@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/createSharedPreference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create SharedPreference"/>
+    
+    <Button
+        android:id="@+id/readSharePreference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read from SharePreference"/>
+    
+    <Button
+        android:id="@+id/createSqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create Sqlite"/>
+    
+    <Button
+        android:id="@+id/addlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add list"/>
+    
+    <Button
+        android:id="@+id/readSqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read from Sqlite"/>
+    
+    <Button
+        android:id="@+id/updatesqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update Sqlite"/>
+    
+    <Button
+        android:id="@+id/deletetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete table"/>
+
+</LinearLayout>
